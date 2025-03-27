@@ -4,6 +4,17 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{multirow}
+\usepackage{listings}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    numbers=left,       % Números de línea a la izquierda
+    numberstyle=\color{gray},
+    frame=single,       % Borde alrededor del código
+    breaklines=true,    % Cortar líneas largas
+    showstringspaces=false,
+    language=bash       % Lenguaje (bash para scripts Unix)
+}
 %\usepackage[USenglish,british,american,australian,english]{babel}
 \usepackage[spanish, activeacute]{babel} %Change language
 \usepackage{float}%For static figures
@@ -54,6 +65,7 @@ Email:
 
 \section{\textbf{Introducción y Marco Teórico}}  
 
+\href{https://github.com/tuusuario/repositorio/blob/main/genetic_analysis.sh#L10}{Ver línea 10 del código}
 %Contexto del problema y cifras relevantes
 El virus del Dengue (DENV) es la infección arboviral de más rápida expansión en el mundo, causando un estimado de 390 millones de infecciones y 60 millones de casos sintomáticos cada año a nivel mundial. Se ha estimado además que aproximadamente 40\% de la población mundial vive en áreas tropicales y subtropicales en riesgo de transmisión de DENV, lo que corresponde a 2500 millones de personas en más de 100 países. Además, una gran proporción de las infecciones son asintomáticas o causan un síndrome febril leve, por lo que no es posible cuantificar la transmisión utilizando la incidencia de los casos clínicamente sospechosos, como suelen notificar los sistemas de vigilancia, ya que sólo representa una fracción de las infecciones \cite{article1}.
 La tendencia a la expansión mundial y el aumento de la carga de la enfermedad, sobre todo en los países con recursos limitados, ha vuelto al dengue un problema de salud pública que necesita de alta prioridad \cite{Dengue_Col}.
