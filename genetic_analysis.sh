@@ -128,3 +128,7 @@ print("Pipeline completed! Check the multiqc_report and case-specific folders.")
 EOF
 # Then we run the pipeline in the background
 nohup python3 run_pipeline.py &
+
+# Then for the analysis of results we wanted to obtain the number of initial variations and the candidates of the variations for a rare genetic 
+# disease after filters so we used the code, that search all the (.vcf) files and count the lines after de header (without a "#"):
+find . -type f -name "*.vcf" -exec sh -c 'echo -n "{}: "; grep -v "^#" "{}" | wc -l' \;
