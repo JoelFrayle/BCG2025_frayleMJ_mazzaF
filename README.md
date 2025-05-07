@@ -1,3 +1,7 @@
-![Miniatura del PDF](./docs/image.png)
+# Mi Proyecto
 
-[Descargar o ver el PDF completo](./docs/BCG2025_frayleMJ_mazzaF.pdf)
+![Miniatura del PDF](docs/image.png)
+
+Aquí tienes un enlace al PDF completo:
+
+[📄 Ver el PDF completo](docs/archivo.pdf)
